@@ -1,0 +1,131 @@
+name: fifty_one_cash
+description: 51CASH a Wallet Application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.9
+  carousel_slider: ^4.2.1
+  fluttertoast: ^8.1.2
+  flutter_spinkit: ^5.1.0
+  jwt_decoder: ^2.0.1
+  avatar_glow: ^2.0.2
+  extended_image: 
+  intl: ^0.18.0
+  country_code_picker: ^3.0.0
+  expandable_page_view: ^1.0.17
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  badges: ^3.0.2
+  flutter_staggered_animations: ^1.1.1
+  animated_text_kit: ^4.2.2
+  delayed_display: ^2.0.0
+  qr_code_scanner: ^1.0.1
+  month_year_picker: ^0.3.0+1
+  qr_flutter: ^4.1.0
+  scan: ^1.6.0
+  image_picker: ^1.0.2
+  pretty_qr_code: ^2.0.3
+  local_auth: ^2.1.6
+  http: ^1.1.0
+  pinput: ^3.0.1
+  shared_preferences: ^2.2.1
+  #edited by MHKMotoVlogs
+  http_parser: ^4.0.2
+  provider: ^6.0.5
+  shimmer: ^3.0.0
+  web_socket_channel: ^2.4.0
+  get:
+  #end
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/logo/
+    - assets/social/
+    - assets/icons/
+    - assets/banner/
+    - assets/vector/
+    - assets/image/
+    - assets/gif/
+
+  fonts:
+    - family: Future
+      fonts:
+        - asset: fonts/futur.ttf
+    - family: Future Light
+      fonts:
+        - asset: fonts/Futura Light font.ttf
+    - family: Future Light BT
+      fonts:
+        - asset: fonts/futura light bt.ttf
+    - family: Future Bold
+      fonts:
+        - asset: fonts/Futura Bold font.ttf
+    - family: Future Heavy
+      fonts:
+        - asset: fonts/Futura Heavy font.ttf
+    - family: Future Medium
+      fonts:
+        - asset: fonts/futura medium bt.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Righteous
+      fonts:
+        - asset: fonts/Righteous-Regular.ttf
+    - family: Oswald Regular
+      fonts:
+        - asset: fonts/Oswald-Regular.ttf
+    - family: Oswald SemiBold
+      fonts:
+        - asset: fonts/Oswald-SemiBold.ttf
+    - family: Oswald Medium
+      fonts:
+        - asset: fonts/Oswald-Medium.ttf
+    - family: Oswald Light
+      fonts:
+        - asset: fonts/Oswald-Light.ttf
+    - family: Oswald ExtraLight
+      fonts:
+        - asset: fonts/Oswald-ExtraLight.ttf
+    - family: Oswald Bold
+      fonts:
+        - asset: fonts/Oswald-Bold.ttf
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Regular.ttf
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Medium.ttf
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Light.ttf
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Italic.ttf      
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Thin.ttf
+    - family: DMSans Regular
+      fonts:
+        - asset: fonts/DMSans-Black.ttf
